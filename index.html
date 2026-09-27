@@ -31,7 +31,10 @@
     let e = React.createElement;
 
     //create react root element
-    ReactDom.createRoot()
+    let root = ReactDOM.createRoot(rootContainer);
+
+    //render the react root
+    root.render(e(Main))
 </script>
 
 </html>
