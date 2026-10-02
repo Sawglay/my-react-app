@@ -24,12 +24,15 @@
     const Main = () => {
         let name = "hlaing min han";
         let age = 20;
+        let className = "this-is-class";
 
-        return <div>
+        return (
+            <div className = {className}>
             <p>{name.toLocaleUpperCase()}</p>
             <p>{age}</p>
             <p>{new Date().toDateString}</p>
             </div>
+        )
     }
 
     let rootContainer = document.getElementById('main');
