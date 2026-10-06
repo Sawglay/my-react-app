@@ -26,12 +26,15 @@
         let age = 20;
         let className = "this-is-class";
 
+        let clickHandler = () => {
+            alert('Hello World');
+        }
         return (
             <div className = {className}>
             <p>{name.toLocaleUpperCase()}</p>
             <p>{age}</p>
             <p>{new Date().toDateString}</p>
-            <button onClick = "">Click Me</button>
+            <button onClick ={clickHandler}>Click Me</button>
             </div>
         )
     }
