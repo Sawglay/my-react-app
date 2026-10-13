@@ -1,9 +1,14 @@
 import './App.css';
 
 function App() {
-  let name = "Hlaing Min Han"
+  
+  let name = "Hlaing Min Han";
+  
   return (
-    <h1>Hello {name}</h1>
+    <div>
+      <h1>Hello {name}</h1>
+      <img src="" alt="" />
+    </div>
   );
 }
 
