@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1>Hello {name}</h1>
-      <img src="" alt="" />
+      <img src="/image.png" alt="" />
     </div>
   );
 }
