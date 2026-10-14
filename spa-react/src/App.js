@@ -1,5 +1,6 @@
 import './App.css';
-import Image from './assets/image.jpg'
+import QAImage from './assets/image.jpg';
+// import Image from './assets/image.jpg';
 
 function App() {
   
@@ -8,7 +9,8 @@ function App() {
   return (
     <div>
       <h1>Hello {name}</h1>
-      <img src="/image.png" alt="" />
+      {/* <img src="/image.png" alt="" /> */}
+      <img src={QAImage}/>
     </div>
   );
 }
