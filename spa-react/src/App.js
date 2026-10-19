@@ -13,7 +13,7 @@ function App() {
     
   }
   return (
-    <div>
+    <div className = "app">
       <h1>Hello {name}</h1>
       <button onClick={changeName}>Change Name</button>
     </div>
