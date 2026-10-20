@@ -20,6 +20,9 @@ function App() {
     },
   ])
 
+  console.log(posts);
+  
+
   let changeName = () => {
     // name = "Aung Aung"
     setName("Aung Aung")
