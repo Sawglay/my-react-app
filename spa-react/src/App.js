@@ -6,7 +6,10 @@ function App() {
   // let name = "Hlaing Min Han";
   let [name, setName] = useState("Hlaing Min Han"); //[getter, setterFun]
   let [posts, setPosts] = useState([
-    {}
+    {
+      id : 1,
+      title : 'First Post'
+    }
   ])
 
   let changeName = () => {
