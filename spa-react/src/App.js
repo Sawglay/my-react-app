@@ -33,6 +33,8 @@ function App() {
     <div className = "app">
       <h1>Hello {name}</h1>
       <button onClick={changeName}>Change Name</button>
+
+      <h1>Posts</h1>
     </div>
   );
 }
