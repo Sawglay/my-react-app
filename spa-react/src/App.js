@@ -35,6 +35,11 @@ function App() {
       <button onClick={changeName}>Change Name</button>
 
       <h1>Posts</h1>
+      <ul>
+        {posts.map(() => (
+          <li>First Post</li>
+        ))}
+      </ul>
     </div>
   );
 }
