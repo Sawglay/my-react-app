@@ -36,8 +36,8 @@ function App() {
 
       <h1>Posts</h1>
       <ul>
-        {posts.map(() => (
-          <li>First Post</li>
+        {posts.map((post) => (
+        <li>{post.title}</li>
         ))}
       </ul>
     </div>
